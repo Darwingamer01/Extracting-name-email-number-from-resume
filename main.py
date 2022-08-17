@@ -15,8 +15,10 @@ for x in file:
 #for x in l:
 #    print(x)
 
+#To print name or 1st line from the resume
 print (l[0])
 
+#To print email id and phone number
 for j in range(len(l)):
     if "LinkedIn" in l[j]:
         for f in range(j+1, (len(l))):
