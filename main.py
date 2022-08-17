@@ -1,3 +1,4 @@
+#with this you can extract name, email id and phone number from a resume in docx form
 import docx2txt
 import re
 
